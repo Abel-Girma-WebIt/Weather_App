@@ -51,6 +51,7 @@ export default function App() {
           onChange={(e) => setCity(e.target.value)}
           type="text"
           id="entry"
+          placeholder='Type city/country name here ...'
         />
       </div>
 
