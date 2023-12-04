@@ -1,0 +1,118 @@
+
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+#app{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+#main{
+
+background-color:rgb(107, 20, 189);
+width: 60%;
+padding: 25px;
+height: 600px;
+border-radius: 15px;
+
+}
+
+#input_div{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+input{
+  margin: 25px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  width: 90%;
+}
+
+
+button{
+  
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  height: 30px;
+  width: 80px;
+  padding: 2px;
+  
+}
+
+button:hover{
+  background-color: chartreuse;
+  color: white;
+}
+
+
+#seacrh_icon{
+  border-radius: 50%;
+  background-color: white;
+}
+
+#typeOfWeather{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 15px;
+
+
+
+}
+
+#degree, #city{
+  color: white;
+  font-size: 30px;
+}
+
+#footer{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#humidity, #windspeed{
+
+  display: grid;
+  grid-template-columns: auto auto;
+  height: auto;
+
+
+}
+
+#current_weather{
+  color: white;
+  text-transform:capitalize;
+}
